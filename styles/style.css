@@ -146,5 +146,5 @@ div.product > div.container-price > #full-price{
 .button > a:hover{
     background-color: rgb(19, 43, 19);
     border-radius: 10px;
-    transition: 0.5s;
+    transition: .5s;
 }

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+
+    main{
+        box-sizing: content-box;
+        display: flex;
+        flex-direction: row;
+        width: 60vw;
+        height: 80vh;
+    }
+    
+    main > div.image{
+        float: left;
+        width: 50%;
+        height: 100%;
+
+        background-image: url(../images/image-product-desktop.jpg);
+        background-position: center;
+        background-size: cover;
+
+        border-radius: 10px 0 0 10px;
+    }
+
+    main > div.product{
+        float: right;
+        width: 50%;
+        height: 100%;
+        padding: 20px 20px 0 20px;
+    }
+}
