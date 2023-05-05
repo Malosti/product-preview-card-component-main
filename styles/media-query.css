@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 830px){
+
+
+    main{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        width: 684px;
+        height: 85vh;
+    }
+    
+    main > div.image{
+        float: left;
+        width: 55%;
+        height: 100%;
+
+        background-image: url(../images/image-product-desktop.jpg);
+        background-position: center;
+        background-size: cover;
+
+        border-radius: 10px 0 0 10px;
+    }
+
+    main > div.product{
+        float: right;
+        width: 45%;
+        height: 100%;
+        padding: 40px 40px 0 40px;
+    }
+
+    div.product > h3{
+        margin-bottom: 30px;
+    }
+
+    div.product > h1{
+        font-size: 3rem;
+        line-height: 3rem;
+        margin-bottom: 30px;
+    }
+
+    div.product > p{
+        margin-bottom: 30px;
+        line-height: 2rem;
+    }
+
+    div.product > div.container-price{
+        font-size: 3rem;
+        margin-bottom: 30px;
+    }
+}
